@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0" Spacing="25">
+            <Label Text="UNIVERSIDAD TÉCNICA DEL NORTE"
+HorizontalOptions="Center"
+FontSize="22"
+FontAttributes="Bold"
+TextColor="DarkRed"
+Margin="0,0,0,5" />
+
+            <Label Text="APLICACIONES MÓVILES" 
+HorizontalOptions="Center"
+FontSize="20"
+FontAttributes="Bold"
+TextColor="DarkBlue" 
+Margin="0,0,0,5" />
+
+            <Label Text="Examen" 
+HorizontalOptions="Center"
+FontSize="18"
+TextColor="Black" 
+Margin="0,0,0,10" />
+
+            <Label Text="Realizado por: Carlos Ipiales"
+HorizontalOptions="Center"
+FontSize="16"
+FontAttributes="Italic"
+TextColor="Gray" 
+Margin="0,0,0,10" />
+
+
+
+            <Button x:Name="cmdClientes" 
+ Text="Clientes" 
+ Clicked="cmdClientes_Clicked"
+ BackgroundColor="LightSkyBlue"
+ TextColor="White"
+ FontAttributes="Bold"
+ Margin="0,0,0,5" />
+
+            <Button x:Name="cmdPedidos" 
+Text="Pedidos" 
+Clicked="cmdPedidos_Clicked"
+BackgroundColor="LightSkyBlue"
+TextColor="White"
+FontAttributes="Bold"
+Margin="0,0,0,5" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
